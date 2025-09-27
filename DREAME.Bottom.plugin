@@ -1,7 +1,13 @@
-DREAME：Error: HTTPClient request failed with error:Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=Connection refused, NSLocalizedFailureReason=Error in connect() function}
+#!name=追觅app删除底部按钮
+#!desc=删除产品、商城、探索按钮
+#!author=shuntou
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/76/22/8c7622fd-3411-0f04-0f9e-093195d49fd3/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/104x104bb.png
+#!homepage=https://github.com/shuntou/DREAME.Bottom
+#!raw-url=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.snippet
 
+[Script]
+http-response ^https?:\/\/[^\/]+\/dreame-product\/public\/common-plugin(\/|\?|$) script-path=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.js, requires-body=true, timeout=60, tag=DREAME.Bottom
 
+[MITM]
+hostname = cn.iot.dreame.tech
 
-
-
-Script Hub 重写转换: ❌  可自行翻译错误信息或复制错误信息后点击通知进行反馈
