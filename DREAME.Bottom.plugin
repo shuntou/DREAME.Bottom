@@ -6,7 +6,7 @@
 #!raw-url=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.snippet
 
 [Script]
-http-response ^https?:\/\/[^\/]+\/dreame-product\/public\/common-plugin(\/|\?|$) script-path=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.js, requires-body=true, timeout=30, tag=DREAME.Bottom
+http-response ^https?:\/\/[^\/]+\/dreame-product\/public\/common-plugin(\/|\?|$) script-path=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.js, requires-body=true, timeout=60, tag=DREAME.Bottom
 
 [MITM]
 hostname = cn.iot.dreame.tech
