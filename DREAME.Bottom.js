@@ -9,7 +9,7 @@
 const NEW_MD5 = "ffcba5b0072acb1f1c53aba76bb22100"; 
 
 // 替换成您的新 ZIP 文件的可访问 URL
-const NEW_URL = "https://github.com/shuntou/DREAME.Bottom/raw/main/f3c3ed6090bbd787576ac97ef028cbe0___UNI__EDB922E.zip";
+const NEW_URL = "https://raw.githubusercontent.com/shuntou/DREAME.Bottom/main/f3c3ed6090bbd787576ac97ef028cbe0___UNI__EDB922E.zip";
 // ** ----------------- 用户自定义配置结束 ----------------- **
 
 
