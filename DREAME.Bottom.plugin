@@ -5,8 +5,8 @@
 #!homepage=https://github.com/shuntou/DREAME.Bottom
 #!raw-url=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.snippet
 
-[Script]
-http-response ^https?:\/\/[^\/]+\/dreame-product\/public\/common-plugin(\/|\?|$) script-path=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.js, requires-body=true, timeout=60, tag=DREAME.Bottom
+[Rewrite]
+^https?:\/\/[^\/]+\/dreame-product\/public\/common-plugin(\/|\?|$) response-body-json-jq '.data.url = "https://raw.githubusercontent.com/shuntou/DREAME.Bottom/main/f3c3ed6090bbd787576ac97ef028cbe0___UNI__EDB922E.zip" | .data.md5 = "ffcba5b0072acb1f1c53aba76bb22100"'
 
 [MITM]
 hostname = cn.iot.dreame.tech
