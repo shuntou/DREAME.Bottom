@@ -1,0 +1,12 @@
+#!name=追觅app删除底部按钮
+#!desc=删除产品、商城、探索按钮
+#!author=shuntou
+#!homepage=https://github.com/shuntou/DREAME.Bottom
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/76/22/8c7622fd-3411-0f04-0f9e-093195d49fd3/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/104x104bb.png
+#!raw-url=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.snippet
+
+[Body Rewrite]
+http-response-jq ^https?:\/\/cn\.iot\.dreame\.tech:13267\/dreame-product\/public\/common-plugin '.data.url = "https://raw.githubusercontent.com/shuntou/DREAME.Bottom/main/f3c3ed6090bbd787576ac97ef028cbe0___UNI__EDB922E.zip" | .data.md5 = "ffcba5b0072acb1f1c53aba76bb22100"'
+
+[MITM]
+hostname = %APPEND% cn.iot.dreame.tech:13267
