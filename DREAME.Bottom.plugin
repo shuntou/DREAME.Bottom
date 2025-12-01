@@ -6,7 +6,7 @@
 #!raw-url=https://github.com/shuntou/DREAME.Bottom/raw/main/DREAME.Bottom.snippet
 
 [Rewrite]
-^https?:\/\/cn\.iot\.dreame\.tech:13267\/dreame-product\/public\/common-plugin response-body-json-jq '.data.url = "https://raw.githubusercontent.com/shuntou/DREAME.Bottom/main/f3c3ed6090bbd787576ac97ef028cbe0___UNI__EDB922E.zip" | .data.md5 = "ffcba5b0072acb1f1c53aba76bb22100"'
+^https?:\/\/cn\.iot\.dreame\.tech:13267\/dreame-product\/public\/common-plugin response-body-json-jq '.data.url = "https://raw.githubusercontent.com/shuntou/DREAME.Bottom/main/1fac49e02bbed88e594d6d7247469136_3f98a0c192ec2ba7962777a11d869c66___UNI__EDB922E.zip" | .data.md5 = "6fb204f301c102f0f0faef703dcf85ff"'
 
 [MITM]
 hostname = cn.iot.dreame.tech
